@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "paycash-test"
+version = "0.1.0"
+description = "Test task for paycash"
+authors = ["Vadim Rusakov <rusakov.vadim.94@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.0"
+pytest = "^7.2.2"
+requests = "^2.28.2"
+asyncio = "^3.4.3"
+sqlalchemy = "^2.0.7"
+asyncpg = "^0.27.0"
+python-dotenv = "^1.0.0"
+alembic = "^1.10.2"
+psycopg2-binary = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
